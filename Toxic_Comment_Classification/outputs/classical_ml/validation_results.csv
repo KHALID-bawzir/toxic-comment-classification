@@ -1,0 +1,8 @@
+label,AUC,F1
+toxic,0.9707,0.76
+severe_toxic,0.9849,0.3981
+obscene,0.9826,0.7702
+threat,0.9861,0.2388
+insult,0.9783,0.6928
+identity_hate,0.9717,0.4216
+mean,0.979,0.5469

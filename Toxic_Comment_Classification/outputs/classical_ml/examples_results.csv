@@ -1,0 +1,11 @@
+text,expected,predicted,match,expected_labels,triggered,max_prob,toxic,severe_toxic,obscene,threat,insult,identity_hate
+"Thanks for the helpful edit, I really appreciate it.",clean,clean,yes,,,0.001,0.0,0.001,0.001,0.0,0.0,0.0
+The article was last updated in 2019 and cites three so,clean,clean,yes,,,0.011,0.011,0.0,0.004,0.0,0.009,0.001
+The movie has a scene where the hero kills the villain ,clean,clean,yes,,,0.008,0.008,0.002,0.004,0.001,0.006,0.005
+You are an idiot and nobody wants you here.,toxic,toxic,yes,"toxic, insult","toxic, insult",0.999,0.999,0.031,0.487,0.004,0.995,0.02
+"What the hell is this crap, did you even read it, you m",toxic,toxic,yes,"toxic, obscene, insult","toxic, obscene, insult",1.0,1.0,0.033,0.98,0.002,0.964,0.016
+I will find you and hurt you.,toxic,toxic,yes,"toxic, threat",toxic,0.524,0.524,0.013,0.04,0.086,0.116,0.006
+"You worthless piece of garbage, go die in a hole, every",toxic,toxic,yes,"toxic, severe_toxic, insult","toxic, obscene, insult",0.999,0.999,0.323,0.773,0.033,0.959,0.017
+"People like you should not be allowed in this country, ",toxic,clean,NO,"toxic, identity_hate",,0.177,0.177,0.013,0.049,0.006,0.091,0.033
+"Do the world a favor and stop editing, we all know you ",toxic,clean,NO,"toxic, insult",,0.152,0.152,0.002,0.02,0.003,0.055,0.012
+I disagree with your edit because the source you used i,clean,clean,yes,,,0.018,0.018,0.001,0.008,0.001,0.007,0.003
